@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^larapwa.com.br$
+RewriteRule ^(.*)$ https://larapwa.com.br/$1 [R=301,L]
