@@ -1,4 +1,5 @@
 
+<?php
 //存有链接的文件名
 $filename = "img.txt";
 if(!file_exists($filename)){
